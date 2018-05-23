@@ -9,5 +9,11 @@ pipeline{
 				bat 'echo "Hello world"'
 				}
 			}
+		stage('Production'){
+			steps{
+				bat 'echo "This is done in Production"'
+				}
+			}
 		}
+		
 	}
